@@ -1,11 +1,17 @@
-import './App.css';
+import React from 'react'
+import './App.css'
+import CustomNavbar from './components/Navbar'
+import HeroSection from './components/HeroSection'
+import StoreListings from './components/StoreListings'
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <CustomNavbar />
+      <HeroSection />
+      <StoreListings />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
